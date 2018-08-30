@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bson\base64.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="bson\bson.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="bson\json.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RosBridgeCameraApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="bson\parse_number.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="socketcpp\Socket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="bson\time_support.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bson\base64.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="bson\bsonobjbuilder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="bson\json.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="socketcpp\Socket.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="bson\time_support.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f480487a-6119-496b-9ca2-f6223e37bbde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{231dca05-dd72-4b37-87ca-92bb2ca29f89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
